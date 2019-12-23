@@ -2,10 +2,9 @@ package com.example.logutils
 
 import android.util.Log
 
-class Logutil{
+object Logutil {
 
-    fun d(message :String){
-        Log.d("TAGSSS",message)
+    fun d(message: String) {
+        Log.d("TAG==", message)
     }
-
 }
