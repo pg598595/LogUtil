@@ -1,2 +1,2 @@
-include ':app', ':logutils'
+include ':app', ':logutils', ':errorutil'
 rootProject.name='LogUtil'
